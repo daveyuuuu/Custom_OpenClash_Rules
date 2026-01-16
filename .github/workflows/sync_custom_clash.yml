@@ -8,13 +8,19 @@ on:
       - cfg/Custom_Clash.ini  # 源文件更新时触发
   workflow_dispatch:           # 手动触发
 
+permissions:
+  contents: read
+
 jobs:
   sync-and-modify:
+    if: github.repository == 'Aethersailor/Custom_OpenClash_Rules'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       # Step 1: 检出源仓库
       - name: Checkout Source Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       # Step 2: 克隆目标仓库
       - name: Clone Target Repo
