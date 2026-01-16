@@ -1,3 +1,4 @@
+payload:
   - DOMAIN-SUFFIX,leetcode.com
   - DOMAIN-SUFFIX,bag.itunes.apple.com
   - DOMAIN-SUFFIX,amp-api.podcast.apple.com
