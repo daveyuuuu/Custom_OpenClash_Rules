@@ -9,5 +9,8 @@ payload:
   - DOMAIN-SUFFIX,lookup-api.apple.com
   - DOMAIN-SUFFIX,xiaoyakankan.com
   - DOMAIN-SUFFIX,amytele.net
+  - DOMAIN-SUFFIX,amytele.co
+  - DOMAIN-SUFFIX,amysecure.com
+  - DOMAIN-SUFFIX,amytele.com
   - DOMAIN-SUFFIX,tagxx.vip
   - DOMAIN-SUFFIX,tagweb.vip
